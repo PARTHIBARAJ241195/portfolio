@@ -1,75 +1,76 @@
 # Parthibaraj Portfolio
 
-Personal portfolio website built as a **static single-page application** using **React + Vite**.
+Modern, scroll-animated portfolio website built with **React + Vite** and designed for **static hosting**.
 
-## About
+## Highlights
 
-I am a Senior Software Engineer with 6.5+ years of experience building scalable web applications, backend APIs, and production-ready systems. I focus on clean architecture, performance optimization, and reliable delivery.
+- Smooth section reveal transitions
+- Dynamic background scene transitions while scrolling (image/video based)
+- Glassmorphism-inspired modern UI
+- Responsive layout for desktop and mobile
+- Detailed sections for skills, experience, projects, and contact
 
-## Tech Stack
+## Stack
 
-- **Frontend:** React, HTML, CSS, JavaScript
-- **Backend Knowledge Highlighted:** PHP (OOP), CodeIgniter, Laravel
-- **Databases:** SQL, MySQL, MongoDB
-- **Tools:** GitHub, Bitbucket, Jira, Confluence, SonarQube
-- **Infrastructure:** Apache, Nginx, Redis, Memcached, Docker, Kubernetes, AWS (S3, EC2)
+- React 18
+- Vite 5
+- Plain CSS (custom animations and responsive styles)
 
-## Portfolio Goals
+## Project Structure
 
-- Present professional profile and technical strengths
-- Showcase selected projects and impact
-- Highlight experience, achievements, and contact details
-- Keep the website fast, responsive, and easy to deploy as static hosting
+```text
+.
+|- index.html
+|- package.json
+|- src/
+|  |- App.jsx
+|  |- main.jsx
+|  |- styles.css
+|- README.md
+```
 
-## Featured Projects
-
-- **Bestnotes (B2B/B2C):** https://www.bestnotes.com
-- **Rakuten Energy:** https://energy.rakuten.co.jp
-- **Educational Initiatives (B2C):** https://ei.study
-- **Globalduniya:** https://globalduniya.in
-- **Travefy:** https://travefy.com
-
-## Experience Snapshot
-
-- **Senior Software Engineer** - Nalashaa Softtware Solutions Pvt Ltd (Oct 2021 - Present)
-- **Software Engineer** - Rakuten India (Oct 2020 - Oct 2021)
-- **Software Engineer** - Dtors Technologies Pvt Ltd / Tech Mahindra C2H (Oct 2019 - Apr 2020)
-- **Software Engineer** - Provab Technosoft Pvt Ltd (Jun 2018 - Oct 2019)
-
-## Key Strengths
-
-- API integration and workflow optimization
-- Bug fixing, sprint planning, and backlog prioritization
-- Microservices-oriented development
-- SQL optimization and performance improvements
-- Code quality and standards-driven delivery
-
-## Contact
-
-- **Name:** Parthibaraj
-- **Location:** Bangalore, India
-- **Phone:** +91 8526670257
-- **Email:** parthibaraj16@gmail.com
-
-## Run Locally (React + Vite)
-
-If you are creating this portfolio with React, use these commands:
+## Run Locally
 
 ```bash
-npm create vite@latest portfolio-web -- --template react
-cd portfolio-web
 npm install
 npm run dev
 ```
 
-## Build for Static Hosting
+Then open the local URL shown by Vite (usually `http://localhost:5173`).
+
+## Build for Production
 
 ```bash
 npm run build
 ```
 
-The generated `dist/` folder can be deployed to GitHub Pages, Netlify, Vercel, or any static hosting provider.
+Production-ready static files will be generated inside `dist/`.
 
----
+## Preview Production Build
 
-This README is tailored from the attached resume and intended for a static portfolio website setup.
+```bash
+npm run preview
+```
+
+## Deploy (Static Hosting)
+
+You can deploy the `dist/` folder to:
+
+- GitHub Pages
+- Netlify
+- Vercel
+- Firebase Hosting
+- Any static web server
+
+## Personal Profile Included in Site
+
+- **Name:** Parthibaraj
+- **Role:** Senior Software Engineer
+- **Experience:** 6.5+ years
+- **Location:** Bangalore, India
+- **Email:** parthibaraj16@gmail.com
+
+## Notes
+
+- Resume PDF is available in the repository root for direct viewing/download.
+- Background videos use external public URLs; if needed, replace them with local assets under a `public/` folder.
